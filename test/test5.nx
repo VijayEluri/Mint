@@ -1,0 +1,19 @@
+/* example for factorisation and expansion*/
+x = "x^2 + 2*x + 1";
+print(x);
+
+a = simplify(x);
+print(a);
+
+a = factorise(x,"x");
+print(a);
+
+a = expand("(x+y)^2");
+print(a);
+
+a = expand("(cos(x)+sin(y))^2");
+print(a);
+
+x = "cos(x)^2 + 2*cos(x) + 1";
+a = factorise(x,"x");
+print(a);

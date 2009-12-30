@@ -1,0 +1,3 @@
+a = fibo(10);
+a = fibolist(10);
+print(a);

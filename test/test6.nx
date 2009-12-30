@@ -1,0 +1,21 @@
+/* example for big number arithmetic */
+a = bigNumber(10,5);print(a);
+b = bigNumber(10,5);print(b);
+c = a + b; print(c);
+c = a - b; print(c);
+c = a * b; print(c);
+c = a / b; print(c);
+b = bigNumber(10,2);print(b);
+c = a ^ b; print(c);
+
+b = bigNumber(10,5);print(b);
+c = a + 5; print(c);
+c = a - 5; print(c);
+c = a * 5; print(c);
+c = a / 5; print(c);
+c = a ^ 5; print(c);
+
+c = fact(0); print('0!=' + c);
+c = fact(5); print('5!=' + c);
+c = fact(50); print('50!=' + c);
+c = fact(500); print('500!=' + c);

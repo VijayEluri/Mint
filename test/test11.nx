@@ -1,0 +1,33 @@
+/* example of matrix functions*/
+print("<" * 20 + "Two Matrices are" + ">" * 20);
+a = matrix("1 2 3 4 5 6 7 8 9",3,3);
+b = matrix("1 2 3 4 5 6 7 8 9",3,3);
+c = matrixRandom(3,3);
+print(a);print(b);print(c);
+print("<" * 20 + "Matrix arithmetic" + ">" * 20);
+
+print("a + b= ");print(a + b);
+print("a - b= ");print(a - b);
+print("a * b= ");print(a * b);
+print("a / b= ");print(a / b);
+
+print("a + 2=");print( a + 2);
+print("a - 2=");print( a - 2);
+print("a * 2=");print( a * 2);
+print("a / 2=");print( a / 2);
+print("a ^ 2=");print( a ^ 2);
+
+print("<" * 20 + "Matrix functions" + ">" * 20);
+d = matrixDet(a);print("Determinant value is = " + d);
+d = matrixSetElem(a,1,2,10);print("set matrix element at: 1,2 as 10 = ");print(d);
+d = matrixFill(3,3,5);print("Filling matrix of 3x3 by value 5 : ");print(d);
+d = matrixSolve(a,b);print("Solving Two Matrices a and b by Ax=B : ");print(d);
+d = matrixTranspose(a);print("transpose of matrix a : ");print(d);
+d = matrixInv(a);print("Inverse of matrix a : ");print(d);
+d = matrixUpperTri(a);print("upper triangle of matrix : ");print(d);
+d = matrixLowerTri(a);print("lower triangle of matrix : ");print(d);
+d = matrixIdentity(3,3);print("Creating identity matrix : ");print(d);
+d = eigenMatrixVector(a);print("Eigen vectors of matrix : ");print(d);
+d = matrixSize(a);print("size of:" + d);
+d = matrixGetElem(a,1,1);print("Element at 1,1: " + d);print("");
+d = subMatrix(a,1,1,3,3);print("Submatrix of [1,1][3,3]  : ");print(d);

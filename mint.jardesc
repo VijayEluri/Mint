@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="F:/Programs/Java/Eclipse/workspace/Mint/Mint.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/Mint/mint.jardesc" exportErrors="true" exportWarnings="true" overwrite="true" saveDescription="true" useSourceFolders="false"/>
+<manifest generateManifest="false" mainClassHandleIdentifier="=Mint/src&lt;{Mint.java[Mint" manifestLocation="/Mint/Manifest.mf" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+<sealing sealJar="true">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=Mint/src"/>
+</selectedElements>
+</jardesc>

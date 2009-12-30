@@ -1,0 +1,8 @@
+/* example of differential calculus */
+
+x = "arcsin(x^2)";
+d1 = derive(x,"x");
+ans = factorise(d1,"x"); // factorise or simplify the given equation
+print("Derivative of f(x)=" + x);
+value = eval("x=0.1;c = " + ans + ";return c;");
+print(ans);print("Value f(5)=" + value);

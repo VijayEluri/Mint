@@ -1,0 +1,16 @@
+/* Functions with complex values */
+
+a = [1,2,3; 4,6,6; 7,8,9];
+print(a);
+b = size(a);
+print(b);
+print('size(a) : ' + b );
+print(a);
+
+a = sin(30);
+print('sin(30):' + a);
+
+a = 1 + 2i;
+b = 1 - 2i;
+
+print(a + b);

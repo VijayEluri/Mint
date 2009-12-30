@@ -1,0 +1,8 @@
+/* example for eval function */
+x="x^2";
+wrt="x";
+
+a = derive(x,wrt);
+print(a);
+b=eval("x=5;c=" + a + ";return c;");
+print(b);

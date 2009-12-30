@@ -1,0 +1,19 @@
+/* example for handling strings */
+a = "<what is a computer?>";print(a);
+b = len(a);print("len(" + a +") = " + b);
+b = substr(a,0,5);print(b);
+b = left(a,5);print(b);
+b = right(a,5);print(b);
+b = upper(a);print(b);
+b = lower(b);print(b);
+b = compare(a,b);print(b);
+b = find(a,">");print(b);
+
+a = Infinity;print(a);
+a = -Infinity;print(a);
+
+a=date();print(a);
+env();
+
+
+

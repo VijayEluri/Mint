@@ -1,0 +1,50 @@
+/* example of matrix functions*/
+a = matrix("1 2 3 4 5 6",2,3);
+print(a);
+
+a=matrixSetElem(a,1,2,10);
+print(a);
+
+a = matrixRandom(3,3);
+print(a);
+print(matrixDet(a));
+
+a = matrixFill(3,3,5);
+print(a);
+
+b = matrixFill(3,3,5);
+print(b);
+
+c = matrixSolve(a,b);
+print(c);
+
+print(a + b);
+print(a - b);
+print(a * b);
+print(a / b);
+
+print(a + 2);
+print(a - 2);
+print(a * 2);
+print(a / 2);
+
+a = matrixTranspose(a);
+print(a);
+
+print(matrixUpperTri(a));
+print(matrixLowerTri(a));
+
+a = matrixIdentity(3,3);
+a = eigenMatrixVector(a);
+print(a);
+
+b = matrixSize(a);
+print("size of:" + b);
+
+a = matrix("1 2 3 4 5 6 7 8 9",3,3);
+print(a);
+print("element at 1,1:" + matrixGetElem(a,1,1));
+
+print("Submatrix is");
+b = subMatrix(a,1,1,3,3);
+print(b);

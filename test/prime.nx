@@ -1,0 +1,7 @@
+a = isprime(50);
+b = isprime(31);
+print( 'isprime(' + 50 + ')=' + a );
+print( 'isprime(' + 31 + ')=' + b );
+c = primelist(100);
+print('List of primes upto 100');
+print(c);

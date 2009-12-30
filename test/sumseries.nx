@@ -1,0 +1,6 @@
+x=10;
+a = sumseries(x);
+print("Summation of x ( 1 .. " + x + ") = " + a);
+n = 2;
+a = sumseriesn(10,n);
+print("Summation of x^" + n + " ( 1 .. " + x + ") = " + a);

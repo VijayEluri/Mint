@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Sealed: true
+Class-Path: libs\gnuprolog.jar libs\calculus.pl libs\antlr.jar libs\xfunctions.jar libs\jmat.jar
+Main-Class: Mint
+

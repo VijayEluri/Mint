@@ -1,0 +1,3 @@
+a = gcd( 10 , 20);print(a);
+a = gcd( x , y);print(a);
+
