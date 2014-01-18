@@ -1,5 +1,7 @@
 import org.mint.gui.ProgramEditor;
 
+import java.util.TreeMap;
+
 /*
  * Created on Mar 2, 2005
  *
