@@ -17,7 +17,26 @@ import java.util.TreeMap;
  */
 public class Mint {
 
+    static class Person{
+        Person(){}
+    }
+
 	public static void main(String[] args) {
-		new ProgramEditor();
+//		new ProgramEditor();
+
+        Person o = new Person();
+
+        TreeMap map = new TreeMap();
+        map.put(1,1);
+        map.put(2,1);
+        map.put(3,1);
+        map.put(4,1);
+
+//        map.put(9,1);
+
+
+        System.out.println(map.firstEntry());
 	}
+
+
 }
